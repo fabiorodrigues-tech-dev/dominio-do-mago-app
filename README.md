@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="caminho/para/sua/logo.png" width="200" alt="Logo Domínio do Mago">
+  <img src="Mago_app.jpeg" width="250" alt="Logo Domínio do Mago - Elemental Arcane UI">
 </p>
 
 # 🔮 Domínio do Mago - Elemental Arcane UI
