@@ -1,0 +1,38 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "env": {
+    "VITE_SUPABASE_URL": "https://myvxvgeyseoyugskqlqr.supabase.co",
+    "VITE_SUPABASE_ANON_KEY": "sb_publishable_PBTrtSs1R0zZp0Xqq0RviQ_iit-JFE2",
+    "VITE_ENABLE_SUPABASE_AUTH": "true",
+    "VITE_FORCE_BOOTSTRAP_CLOUD_SYNC": "false",
+    "VITE_ENABLE_GOOGLE_CALENDAR": "false",
+    "VITE_ENABLE_LOCAL_IMPORT": "false"
+  },
+  "rewrites": [
+    {
+      "source": "/:path((?!.*\\.).*)*",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, no-cache, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/index.html",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store, no-cache, must-revalidate"
+        }
+      ]
+    }
+  ]
+}
