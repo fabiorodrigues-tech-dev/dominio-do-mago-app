@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="caminho/para/sua/logo.png" width="200" alt="Logo Domínio do Mago">
+</p>
 # 🔮 Domínio do Mago - Elemental Arcane UI
 
 ![React](https://img.shields.io/badge/React-19.0-blue?style=for-the-badge&logo=react)
